@@ -34,4 +34,4 @@ systemctl enable teamspeak.service
 # display privilege key for admin
 echo ""
 echo "Privilege Key:"
-cat /home/teamspeak/logs/ts3server_*
+cat /home/teamspeak/logs/ts3server_* | grep token=
