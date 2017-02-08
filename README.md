@@ -12,8 +12,7 @@ Installs Teamspeak Server on Ubuntu server.
 Just what it says on the box.
 
 * Creates a teamspeak user for the service
-* Downloads, extracts and installs the package
-* Installs the contents in the teamspeak user's home dir, sets permissions
+* Downloads, extracts and installs the package in /home/teamspeak
 * Creates the service entry for systemd
 * Starts the service
 * Outputs the Privilege Key.
